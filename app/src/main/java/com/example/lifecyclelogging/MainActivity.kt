@@ -42,22 +42,22 @@ class MainActivity : ComponentActivity() {
 
     override fun onResume() {
         super.onResume()
-        Log.d(TAG, "onResume: App Resumed")  // ✅ Log event
+        Log.d(TAG, "onResume: App Resumed")  
     }
 
     override fun onPause() {
         super.onPause()
-        Log.d(TAG, "onPause: App Paused")  // ✅ Log event
+        Log.d(TAG, "onPause: App Paused")  
     }
 
     override fun onStop() {
         super.onStop()
-        Log.d(TAG, "onStop: App Stopped")  // ✅ Log event
+        Log.d(TAG, "onStop: App Stopped")  
     }
 
     override fun onDestroy() {
         super.onDestroy()
-        Log.d(TAG, "onDestroy: App Destroyed")  // ✅ Log event
+        Log.d(TAG, "onDestroy: App Destroyed")  
     }
 }
 
